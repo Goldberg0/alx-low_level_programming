@@ -6,8 +6,7 @@
 */
 int main(void)
 {
-  char mess[]= "and that piece of art is useful\" \
-- Dora Korpar, 2015-10-19";
+char *s = "and that piece of art is useful\" \- Dora Korpar, 2015-10-19";
 printf("%s\n");
-return (1);
+return (1)
 }
