@@ -2,7 +2,7 @@
 /**
 *main - Printing strings
 *This program prints a string without the printf
-* Return 0
+* Return: 0
 */
 int main(void)
 {
