@@ -6,7 +6,6 @@
 */
 int main(void)
 {
-char yo [] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-fprintf(stderr, "%c\n", yo);
+fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 return (1);
 }
