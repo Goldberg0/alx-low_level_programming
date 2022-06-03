@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
-* main - prints out single digit numbers possible combo
+* main - prints all numbers lesser than 0
 * Return: 0
 */
 int main(void)
 {
 	int i;
+
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
