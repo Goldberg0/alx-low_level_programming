@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - creates pairs of digits 
+* main - creates pairs of digits
 * Return: 0
 */
 int main(void)
