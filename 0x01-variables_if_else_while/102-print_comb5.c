@@ -44,5 +44,5 @@ int main(void)
 		j++;
 	}
 	putchar('\n');
-	return (1);
+	return (0);
 }
