@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /**
  * times_table - prints the multiplication table up to 9
  * Return: void
