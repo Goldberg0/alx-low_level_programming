@@ -10,4 +10,5 @@
 
 int main(void)
 {
-_
+_putchar("_putchar\n");
+return (0)
