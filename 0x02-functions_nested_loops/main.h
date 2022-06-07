@@ -2,4 +2,6 @@
 #define MAIN_H
 
 /* 0-putchar.c */
-int _putchar(char)
+int _putchar(char);
+
+#endif
