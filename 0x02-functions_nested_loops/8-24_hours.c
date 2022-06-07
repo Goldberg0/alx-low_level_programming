@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * jack_bauer - prints minutes of jack baeur day
  * Return: 0
