@@ -4,7 +4,7 @@
 /* 0-putchar.c */
 int _putchar(char);
 
-/* 1-print_alphabet.c */
+/* 1-alphabet.c */
 void print_alphabet(void)
   
 #endif
