@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - entry point
- * Description: Prints the alphabet with _putchar ten times
+ * Description: Prints alphabet ten times with _putchar function
  * Return: void
  */
 void print_alphabet_x10(void)
