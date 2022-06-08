@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - prints the times table up to the integer input
+ * print_times_table - prints the times table of an integer input less than 15
  * @n: integer input
  * Return: void
  */
