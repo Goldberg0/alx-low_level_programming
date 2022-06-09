@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints numbers 0-9 with exception 2 and 4 
+ * print_most_numbers - prints numbers 0-9 with exception 2 and 4
+ *
  * Return: void
  */
+
 
 void print_most_numbers(void)
 {
