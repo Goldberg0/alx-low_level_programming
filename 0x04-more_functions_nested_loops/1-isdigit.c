@@ -6,7 +6,7 @@
  */
 
 
-int _isupper(int c)
+int _idigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
