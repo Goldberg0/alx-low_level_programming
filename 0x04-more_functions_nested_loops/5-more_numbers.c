@@ -2,10 +2,8 @@
 
 /**
  * more_numbers - prints a set of numbers x10
- *
  * Return: void
  */
-
 
 void more_numbers(void)
 {
