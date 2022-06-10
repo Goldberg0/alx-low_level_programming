@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * print_times_table - prints the times table 
  * @n: integer input
