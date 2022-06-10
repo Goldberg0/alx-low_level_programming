@@ -19,7 +19,7 @@ int main(void)
 			{
 				break;
 			}
-			n != i;
+		
 		}
 		i++;
 
