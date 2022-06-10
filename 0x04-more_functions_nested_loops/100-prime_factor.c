@@ -1,8 +1,8 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - prints highest prime of 612852475143
+ * main - program that prints highest prime of n
  * Return: 0
  */
 int main(void)
@@ -13,8 +13,17 @@ int main(void)
 
 	while (i < n)
 	{
-		while ((n % i == 0) && (n != i))
-			i++;
+		while (n % i == 0)
+		{
+			if (n == i)
+			{
+				break;
+			}
+			n != i;
+		}
+		i++;
+
+
 	}
 
 	printf("%lu\n", n);
