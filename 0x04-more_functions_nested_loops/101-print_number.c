@@ -7,15 +7,16 @@
  */
 void print_number(int n)
 {
-	int n;
+	int i;
 
-	if (n < 0)
+	if (i < 0)
 	{
-		_putchar('-%d', n);
+		i *= -1, i++
+		_putchar('%d', i *= -1);
 	}
 	else
 	{
-		_putchar('%d', n)
+		_putchar('%d', i)
 	}
 		
 	_putchar("\n")
