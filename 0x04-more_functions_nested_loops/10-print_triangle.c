@@ -1,22 +1,27 @@
 #include "main.h"
 
 /**
- * print_triangle - print triangle of variable length
- * @size: triangle height
+ * print_triangle - prints a triangle
+ * @size: size of triangle
+ * Return: void
  */
+
 void print_triangle(int size)
 {
-	int i, b;
-
-	b = size;
+	int a, b;
 
 	if (size <= 0)
 		_putchar('\n');
-	while (size > 0)
+	for (a = 1; a <= size; a++)
 	{
-		for (i = 1; i <= b; i++)
-			_putchar('#')
+		for (b = 1; b <= size; b++)
+		{
+			if (b <= (size - a))
+				_putchar(' ');
+			else
+				_putchar('#');
+		}
 		_putchar('\n');
-		size--;
 	}
+
 }
