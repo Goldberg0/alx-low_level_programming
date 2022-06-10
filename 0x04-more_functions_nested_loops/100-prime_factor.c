@@ -1,31 +1,18 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - program that prints highest prime of n
- * Return: 0
+ * main - prints the largest prime factor of 612852475143
+ * Return: always 0
  */
 int main(void)
 {
-	int i = 2;
-	long n = 612852475143;
+	unsigned long int i, n = 612852475143;
 
-
-	while (i < n)
+	for (i = 3; i < 782849; i++)
 	{
-		while (n % i == 0)
-		{
-			if (n == i)
-			{
-				break;
-			}
-		
-		}
-		i++;
-
-
+		while ((n % i == 0) && (n != i))
+			n = n / i;
 	}
-
 	printf("%lu\n", n);
 	return (0);
 }
