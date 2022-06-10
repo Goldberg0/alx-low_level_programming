@@ -14,7 +14,9 @@ void print_number(int n)
 		_putchar('-%d', n);
 	}
 	else
+	{
 		_putchar('%d', n)
+	}
 		
 	_putchar("\n")
 }
