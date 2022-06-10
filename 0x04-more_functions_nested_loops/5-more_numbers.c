@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * more_numbers - prints 01234567891011121314\n x10
+ * more_numbers - prints (0-14) x10
  *
  * Return: void
  */
