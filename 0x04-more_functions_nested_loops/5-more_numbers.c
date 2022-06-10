@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints (0-14) x10
+ * more_numbers - prints a set of numbers x10
  *
  * Return: void
  */
@@ -9,17 +9,17 @@
 
 void more_numbers(void)
 {
-	char a, b, j, i;
+	char a, b, c, i;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (c = 0; c <= 14; c++)
 		{
-			if (j < 10)
-				b = j;
+			if (c < 10)
+				b = c;
 			else
 			{
-				a = j / 10; b = j % 10;
+				a = c / 10; b = c % 10;
 				_putchar('0' + a);
 			}
 			_putchar('0' + b);
