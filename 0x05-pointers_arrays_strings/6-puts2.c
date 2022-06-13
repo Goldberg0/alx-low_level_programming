@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a  string to stdout
- * @str: string to print
- *
- * Return: void
- */
+* puts2 - print one char out of 2 of a string
+*@str: string to print
+*Return: Nothing
+*/
+
 void puts2(char *str)
 {
-	int i = 0;
+	int len;
+	char l;
 
-	while (*(str + i))
+	for (len = 0; *(str + len) != 0; len++)
 	{
-		_putchar(*(str + i));
-		i = i + 2;
+		if (len % 2 == 0)
+		{
+			l = *(str + len);
+			_putchar(l);
+		}
 	}
 	_putchar('\n');
 }
