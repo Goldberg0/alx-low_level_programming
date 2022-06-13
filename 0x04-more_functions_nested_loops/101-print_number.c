@@ -5,18 +5,19 @@
  * @n: integer to print
  * Return: void
  */
+
 void print_number(int n)
 {
-	int n;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
-		_putchar('-%d', n);
+		_putchar('-');
+		num = -num;
 	}
-	else
-	{
-		_putchar('%d', n)
-	}
-		
-	_putchar("\n")
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
