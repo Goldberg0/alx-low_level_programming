@@ -12,4 +12,4 @@ char *cap_string(char *);
 char *leet(char *);
 int _strlen(char *);
               
-#endif
+#endif /* MAIN_H */
