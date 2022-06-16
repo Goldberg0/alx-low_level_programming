@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* _strlen - returns length of a string 
+* _strlen - returns length of a string
 * _strncat - concatenates two strings
 * @dest: string to be appended
 * @src: pointer to a string
