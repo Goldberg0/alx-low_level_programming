@@ -25,7 +25,7 @@ int _strlen(char *str)
 }
 
 
-
+/* _strncat - concatenates two strings */
 char *_strncat(char *dest, char *src, int n)
 {
 	char *append = dest + _strlen(dest);
