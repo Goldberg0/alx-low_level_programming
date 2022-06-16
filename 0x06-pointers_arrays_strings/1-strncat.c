@@ -30,13 +30,13 @@ char *_strcat(char *dest, char *src)
 	char *append = dest + _strlen(dest);
 	int length;
   
-  if(n > _strlen(src) + _strlen(dest))
+  if (n > _strlen(src) + _strlen(dest))
     length = _strlen(dest) + _strlen(src);
   else
     length = _strlen(dest) + n;
       
 
-	while (*src > 0) && (n > 0)
+	while ((*src > 0) && (n > 0))
 	{
 		*append += *src;
 		src++;
