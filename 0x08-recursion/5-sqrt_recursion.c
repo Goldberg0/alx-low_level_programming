@@ -2,8 +2,8 @@
 
 /**
  * isSqrt - checks square root of a number
- * @n: probable square root
- * @i: integer to find square root of
+ * @z: probable square root
+ * @a: integer to find square root of
  * Return: square root of number
  */
 
