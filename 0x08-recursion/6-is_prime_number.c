@@ -2,11 +2,11 @@
 
 /**
  * Prime_num - checks if number is prime
- * @f: input number
- * @p: probable prime number
+ * @i: input number
+ * @j: probable prime number
  * Return: 1 if true, 0 if false
  */
- 
+
 int Prime_num(int i, int j)
 {
 	if (j < 2 || j % i == 0)
@@ -22,7 +22,7 @@ int Prime_num(int i, int j)
  * @n: number to check
  * Return: 1 if prime, 0 if not
  */
- 
+
 int is_prime_number(int n)
 {
 	if (n == 2)
