@@ -39,7 +39,7 @@ int Palcheck(char s[], int i, int j)
 int is_palindrome(char *s)
 {
 	int a;
-	
+
 	a = _strlen_recursion(s) - 1;
 
 	return (Palcheck(s, 0, a));
