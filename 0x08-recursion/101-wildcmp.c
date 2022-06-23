@@ -16,10 +16,6 @@ int wildcmp(char *s1, char *s2)
 		return (*s2 == '\0');
 
 	}
-	if (*s1 != *s2)
-	{
-		return (0);
-	}
 	if (*s2 == '*')
 		return (wildcmp(s2, s1 + 1) || wildcmp(s1, s2 + 1));
 	else if (*s1 == *s2)
