@@ -27,7 +27,7 @@ int Palcheck(char s[], int i, int j)
 		return (1);
 	if (s[i] != s[j])
 		return (0);
-  return (Palcheck(s, i + 1, j - 1));
+	return (Palcheck(s, i + 1, j - 1));
 }
 
 /**
@@ -39,8 +39,8 @@ int Palcheck(char s[], int i, int j)
 int is_palindrome(char *s)
 {
 	int a;
-
-  a = _strlen_recursion(s) - 1;
+	
+	a = _strlen_recursion(s) - 1;
 
 	return (Palcheck(s, 0, a));
 }
