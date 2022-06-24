@@ -38,17 +38,18 @@ int main(int argc, char **argv)
 {
 	int diff;
 	
+	if (argc != 2)
+	{
+		printf("Error\n");
+		return (0);
+	}
+	
 	diff = atoi(argv[1]);
 	if (diff < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
-	if (argc != 2)
-	{
-		printf("Error\n");
-		return (0);
-  }
 	printf("%i\n", change(diff));
 	return (0);
 }
