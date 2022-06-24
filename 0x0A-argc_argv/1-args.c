@@ -10,6 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	int i;
+	
+	while (--argc);
+	i++;
+	printf("%d\n", i);
 	return (0);
 }
