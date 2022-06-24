@@ -37,13 +37,11 @@ int change(int chg)
 int main(int argc, char **argv)
 {
 	int diff;
-	
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (0);
 	}
-	
 	diff = atoi(argv[1]);
 	if (diff < 0)
 	{
