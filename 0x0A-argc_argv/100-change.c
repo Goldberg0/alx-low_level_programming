@@ -1,5 +1,5 @@
 #include "main.h"
-#winclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -37,14 +37,13 @@ int change(int chg)
 int main(int argc, char **argv)
 {
 	int diff;
-  
+	
 	diff = atoi(argv[1]);
 	if (diff < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
-  
 	if (argc != 2)
 	{
 		printf("Error\n");
