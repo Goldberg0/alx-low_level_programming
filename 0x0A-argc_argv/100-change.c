@@ -37,6 +37,7 @@ int change(int chg)
 int main(int argc, char **argv)
 {
 	int diff;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
