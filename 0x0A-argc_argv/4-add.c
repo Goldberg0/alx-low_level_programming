@@ -11,15 +11,15 @@
 int main(int argc, char *argv[])
 {
 	int i, j, sum = 0;
-
-	for (i = 1; i < argc; i++)
-	{
-		for (j = 0; argv[i][j]; j++)
+	
+	if (argc > 1)
+		for (i = 1; i < argc; i++)
 		{
-			if (isdigit(argv[i][j]) == 0)
-        return (printf("Error\n"), 1);
-      sum += atoi(argv[i]);
-    }
+			for (j = 0; argv[i][j]; j++)
+				if (isdigit(argv[i][j]) == 0)
+					return (printf("Error\n"), 1);
+			sum += atoi(argv[i]);
+		}
 	printf("%i\n", sum);
 	return (0);
 }
